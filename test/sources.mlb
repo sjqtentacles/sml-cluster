@@ -1,0 +1,13 @@
+(* Test executable basis: the cluster library (which pulls in the vendored
+   sml-prng generators) plus the harness, helpers, and per-feature suites. *)
+$(SML_LIB)/basis/basis.mlb
+
+../src/cluster.mlb
+
+harness.sml
+support.sml
+test_kmeans.sml
+test_dbscan.sml
+test_hierarchical.sml
+entry.sml
+main.sml
