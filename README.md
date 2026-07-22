@@ -1,5 +1,7 @@
 # sml-cluster
 
+[![CI](https://github.com/sjqtentacles/sml-cluster/actions/workflows/ci.yml/badge.svg)](https://github.com/sjqtentacles/sml-cluster/actions/workflows/ci.yml)
+
 Clustering in pure Standard ML — **k-means** with k-means++ seeding,
 **DBSCAN** (density-based), and **hierarchical agglomerative** clustering
 (single / complete / average linkage) — built on
